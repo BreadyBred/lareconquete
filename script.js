@@ -65,7 +65,6 @@ window.onscroll = function () {
         lien[3].style.paddingLeft = "1.5vw";
         lien[4].style.paddingLeft = "1.5vw";
 
-        // <!>
     }
     else{
         header.style.backgroundColor = "none";
