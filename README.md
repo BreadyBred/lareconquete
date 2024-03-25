@@ -9,8 +9,8 @@ Ce projet multidimensionnel englobe la création d'un site web interactif offran
 30 mai 2031
 
 ## Membres
-Erwann 	GUEGAN
-Florine GRIMAL
-Virgil 	GREBOVAL
-Jean 	GODARD
-Romain 	GERARD
+* Erwann  GUEGAN
+* Florine GRIMAL
+* Virgil  GREBOVAL
+* Jean 	  GODARD
+* Romain  GERARD
