@@ -11,6 +11,11 @@
 
 </head>
 <body>
+
+	<div id="mobile">
+		Ce site n'est pas adapté aux petits écrans
+	</div>
+
 	<!-- Box réseaux sociaux -->
 	<div id="rsx">
 		<a href="#">
@@ -27,7 +32,6 @@
 	<!-- Header -->
 	<header id="header">
 		<audio src="images/aoe2.mp3" hidden id="audio"></audio>
-		<audio src="images/jeanne.mp3" hidden id="audio2"></audio>
 
 		<div id="leftside">
 			<a href="#">
@@ -59,93 +63,85 @@
 	</header>
 
 	<!-- Accueil -->
-	<div>
-		<div id="greybg"></div>
+	<section id="accueil">
 		<p>
 			LA PLUS GROSSE REPRÉS<span>ENTATION</span><br>
 			DE BATAILLES  DE <span>FRANCE</span>
 		</p>
+		<!-- <img src="images/combat.webp" class="rect" alt=""> -->
 		<div>
-			<p>En hommage à<b>Jeanne d'Arc</b></p>
+			<p class="greybg">En hommage<br>à <b>Jeanne d'Arc</b></p>
+			<img src="images/place.webp" class="carre" alt="">
 		</div>
-		<img src="images/place.jpg" alt="">
-		<img src="images/combat.png" alt="">
-	</div>
+	</section>
 
 	<!-- Découvrir -->
-	<img class="separateur" src="images/separateur.png" alt="">
+	
 	<section id="decouvrir">
 		<div>
-			<div>
+			<div id="logouniv" class="logo">
 				<img src="images/univ.png" alt="Logo Université de Rouen Normandie">
-				<img src="images/iut.png" alt="Logo IUT de Rouen">
 			</div>
-			<div>
+			<div id="logommi" class="logo">
 				<img src="images/mmi.png" alt="Logo secteur MMI">
 			</div>
 		</div>
 
-		<div>
-			<p>
-				La reconquête est un projet créé par<br>
-				6 étudiants de MMI à l’IUT d’Elbeuf,<br>
-				ce projet consiste en la<br>
-				reconstitution d'une bataille grandeur<br>
-				nature, qui a émergé suite à une<br>
-				longue réflexion pour un projet tutoré<br>
-				de fin d’année. Cet événement est<br>
-				en mémoire Jeanne d’Arc et aura lieu<br>
-				le jour des 600 ans de sa mort.<br>
-			</p>
-		</div>
-
+		<p>
+			La reconquête est un projet créé par<br>
+			6 étudiants de MMI à l’IUT d’Elbeuf,<br>
+			ce projet consiste en la<br>
+			reconstitution d'une bataille grandeur<br>
+			nature, qui a émergé suite à une<br>
+			longue réflexion pour un projet tutoré<br>
+			de fin d’année. Cet événement est<br>
+			en mémoire Jeanne d’Arc et aura lieu<br>
+			le jour des 600 ans de sa mort.<br>
+		</p>
 	</section>
 
 
 
 	<!-- Évènement -->
-	<img src="images/separateur.png" alt="">
 	<section id="event">
-		<div>
-			<p>
-				La reconquête est une reconstitution de bataille grandeur nature ouverte à tous.<br>
-				C'est un spectacle atypique qui prend place sur la célèbre place du vieux marché à Rouen, où Jeanne d'Arc<br>
-				fut brûlée. En son honneur, habillés et équipés de manière identique à l'époque,<br>
-				les participants se livreront un combat sans merci pour venger et revivre les batailles épiques d'autres fois.<br>
-				Pour finir, cet évènement a aussi un but institutionnel, celui d'aider le grand public<br>
-				à en apprendre plus sur cette période de l'histoire.
-			</p>
-		</div>
+		<p>
+			La reconquête est une reconstitution de bataille grandeur nature ouverte à tous.<br>
+			C'est un spectacle atypique qui prend place sur la célèbre place du vieux marché à Rouen, où Jeanne d'Arc<br>
+			fut brûlée. En son honneur, habillés et équipés de manière identique à l'époque,<br>
+			les participants se livreront un combat sans merci pour venger et revivre les batailles épiques d'autres fois.<br>
+			Pour finir, cet évènement a aussi un but institutionnel, celui d'aider le grand public<br>
+			à en apprendre plus sur cette période de l'histoire.
+		</p>
 
 		<img src="images/barre.png" alt="">
 
 		<!-- 500 -->
 		<div>
-			<img src="images/plus.png" alt="Plus">
-			<div>
+			<div class="infos">
+				<img src="images/plus.png" class="plus" alt="Plus">
 				<p class="important_infos">500</p>
-				<p>
-					<b>PARTICIPANTS</b><br>
-					TOUT ÂGE
-				</p>
+				<div>
+					<p class="bold">PARTICIPANTS</p>
+					<p>TOUT ÂGE</p>
+				</div>
 			</div>
 				
 			<!-- 3H -->
-			<img src="images/plus.png" alt="Plus">
-			<div>
+			<div class="infos">
+				<img src="images/plus.png" class="plus" alt="Plus">
 				<p class="important_infos">6H</p>
-				<p>
-					<b>DE BATAILLE</b><br>
-					ACHARNÉE
-				</p>
+				<div>
+					<p class="bold">DE BATAILLE</p>
+					<p>ACHARNÉE</p>
+				</div>
 			</div>
 			<!-- ∞ -->
-			<div>
-				<p class="important_infos">∞</p>
-				<p>
-					<b>DE FUN</b><br>
-					INTENSE
-				</p>
+			<div class="infos">
+				<p class="important_infos giant">∞</p>
+				<div>
+					<p class="bold">DE FUN</p>
+					<p>INTENSE</p>
+				</div>
 			</div>	
 		</div>
 	</section>
@@ -154,8 +150,7 @@
 
 
 	<!-- Histoire -->
-	<img class="separateur" src="images/separateur.png" alt="">
-	<section id="histoire">
+	<!-- <section id="histoire">
 		<figure>
 			<img src='images/1.jpg' width="50" alt="Statue de Jeanne d'Arc">
 		</figure>
@@ -195,64 +190,61 @@
 				<h3><a href='https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans'>Direction la Guerre de Cent ans</a></h3>
 			</div>
 		</section>
-	</section>
+	</section> -->
 
 	<!-- Médias -->
-	<img class="separateur" src="images/separateur.png" alt="">
 	<section id="media">
 		<div>
 			<h2>TRAILER</h2>
-			<div>
-				<video controls id="video">
-					<source src="images/ptutfini3.mp4" type="video/mp4">
-				</video>
-			</div>
-			<p>Voici un avant goût de l'évènement</p>
+			<video controls id="video">
+				<source src="images/ptutfini3.mp4" type="video/mp4">
+			</video>
+			<p><i>Voici un avant goût de l'évènement</i></p>
 		</div>
 
 		<img src="images/barre_verticale.png" alt="">
 		
 		<div>
-			<img src="images/rouen1.jpg" alt="Photo Place du Vieux Marché - Rouen 1">
-			<img src="images/rouen2.jpg" alt="Photo Place du Vieux Marché - Rouen 2">
-			<img src="images/rouen3.jpg" alt="Photo Place du Vieux Marché - Rouen 3">
+			<img src="images/rouen1.webp" alt="Photo Place du Vieux Marché - Rouen 1">
+			<img src="images/rouen2.webp" alt="Photo Place du Vieux Marché - Rouen 2">
+			<img src="images/rouen3.webp" alt="Photo Place du Vieux Marché - Rouen 3">
 		</div>
 	</section>
 
 	<!-- Informations -->
-	<img class="separateur" src="images/separateur.png" alt="">
 	<section id="informations">
-		<img src="images/affiche1.png" alt="">
-		<h2>Informations</h2>
+		<img src="images/affiche1.webp" alt="">
 		<div>
-			<div>
+			<section>
 				<h3>Localisation :</h3>
 				<p>
 					<b>Rouen</b> (76000), <b>France</b><br>
 					<i>Place du vieux marché</i>
 				</p>
-			</div>
+			</section>
 
-			<div>
+			<section>
 				<h3>Date :</h3>
 				<p>
 					<b>30</b> mai <b>2031</b>
 				</p>
-			</div>
+			</section>
 
-			<div>
+			<section>
 				<h3>Accessibilité :</h3>
 				<p>
 					<b>Ouvert</b> à tous<br>
 					Parking <b>gratuit</b><br>
 					Entrée <b>gratuite</b>
 				</p>
-			</div>
+			</section>
 		</div>
 	</section>
 
-	<footer></footer>
+	<footer>
+		<p>Copyright 2020 - 2021</p>
+	</footer>
 
-	<!-- <script src="script.js"></script> -->
+	<script src="script.js"></script>
 </body>
 </html>

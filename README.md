@@ -5,8 +5,6 @@ Ce projet multidimensionnel englobe la création d'un site web interactif offran
 
 "L'épopée de la Reconquête" vise à raviver la mémoire collective et à transmettre l'héritage historique de Jeanne d'Arc à travers une expérience mémorable et participative, unissant passé et présent dans un élan de célébration et de découverte.
 
-[Lien du site](https://lareconquete.netlify.app/)
-
 ## Date
 30 mai 2031
 
