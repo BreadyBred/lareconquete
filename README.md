@@ -1,16 +1,21 @@
-# La reconquête
-"La Reconquête" est un projet ambitieux et novateur issu de ma première année de DUT, représentant mon baptême dans le monde de la conception web. Cet événement exceptionnel commémore les 600 ans de la disparition de Jeanne d'Arc et se déroulera en 2031 à Rouen, lieu emblématique de son histoire. Au cœur de cette célébration, une reconstitution spectaculaire de la bataille historique contre les Anglais sera mise en scène.
+# La Reconquête: A Multi-faceted Commemoration of Joan of Arc
 
-Ce projet multidimensionnel englobe la création d'un site web interactif offrant une plongée immersive dans l'époque médiévale, ainsi qu'un trailer captivant pour susciter l'engouement du public. La stratégie de communication 360 degrés comprendra des affiches évocatrices, des publications sur les réseaux sociaux et des partenariats médiatiques pour assurer une visibilité maximale.
+"La Reconquête" is an ambitious project developed during my first year of university studies, marking my introduction to the world of web design. This event, commemorating the legacy of Joan of Arc, will be held in Rouen, a pivotal location in her story. The project comprises several key components:
 
-"L'épopée de la Reconquête" vise à raviver la mémoire collective et à transmettre l'héritage historique de Jeanne d'Arc à travers une expérience mémorable et participative, unissant passé et présent dans un élan de célébration et de découverte.
+*   **Interactive Website:** An immersive website will offer visitors a deep dive into the medieval era.
+*   **Captivating Trailer:** A trailer will be created to generate excitement and anticipation for the event.
+*   **Historical Reenactment:** A spectacular reenactment of the historical battle against the English will be a central feature of the commemoration.
+*   **360-Degree Communication Strategy:** A comprehensive communication plan will include:
+    *   Impactful Posters
+    *   Social Media Campaigns
+    *   Media Partnerships
 
-## Date
-30 mai 2031
+"La Reconquête" aims to revitalize collective memory and transmit Joan of Arc's historical legacy through a memorable and engaging experience, connecting the past with the present.
 
-## Membres
-* Erwann GUEGAN
-* Florine GRIMAL
-* Virgil GREBOVAL
-* Jean GODARD
-* Romain GERARD
+## Project Contributors
+
+*   Erwann GUEGAN
+*   Florine GRIMAL
+*   Virgil GREBOVAL
+*   Jean GODARD
+*   Romain GERARD
