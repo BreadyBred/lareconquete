@@ -1,6 +1,6 @@
 /* kanit-200 - latin */
 @font-face {
-	font-family: 'Kanit';
+	font-family: 'Kanit Light';
 	font-style: normal;
 	font-weight: 200;
 	src: url('font/kanit-v7-latin-200.woff') format('woff'),
@@ -9,7 +9,7 @@
   
   /* kanit-200italic - latin */
   @font-face {
-	font-family: 'Kanit';
+	font-family: 'Kanit Italic';
 	font-style: italic;
 	font-weight: 200;
 	src: url('font/kanit-v7-latin-200italic.woff') format('woff'),

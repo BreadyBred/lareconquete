@@ -4,8 +4,6 @@
 	--white: #F0FFF0;
 }
 
-@import 'font.css';
-
 @media screen and (orientation:landscape){
 
 	/* Style global*/
